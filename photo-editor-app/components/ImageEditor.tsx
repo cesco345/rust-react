@@ -11,7 +11,7 @@ import {
 } from "react-native";
 import * as ImagePicker from "expo-image-picker";
 import Slider from "@react-native-community/slider";
-import { manipulateAsync, SaveFormat, FlipType } from "expo-image-manipulator";
+import { manipulateAsync, SaveFormat } from "expo-image-manipulator";
 
 interface FilterOption {
   name: string;
